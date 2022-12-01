@@ -2,11 +2,12 @@ import sys
 import random
 
 
-def generate_random_name():
+def generate_random_name(sep='_'):
     with open('nouns.txt', 'r') as h: nouns = [word.replace('\n', '') for word in h.readlines()]
     with open('adjectives.txt', 'r') as h: adjectives = [word.replace('\n', '') for word in h.readlines()]
     with open('verbs.txt', 'r') as h: verbs = [word.replace('\n', '') for word in h.readlines()]
-    return f'{random.choice(verbs)}_{random.choice(adjectives)}_{random.choice(nouns)}'
+    random_name = f'{random.choice(verbs)}{sep}{random.choice(adjectives)}{sep}{random.choice(nouns)}'
+    return random_name
 
 
 if __name__ == '__main__':

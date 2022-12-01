@@ -1,3 +1,3 @@
 # random_name_generator
 
-Generate upto 10,049,437,503 random names.
+Generate upto 10,156,535,760 random names.
