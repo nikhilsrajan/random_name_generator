@@ -1,3 +1,32 @@
 # random_name_generator
 
 Generate upto 10,156,535,760 random names.
+
+
+## Example run
+
+Generating 20 random names
+
+```
+$ python random_name_generator.py 20
+soothing_heady_stiff
+snapping_querulous_villani
+slanted_forensic_veery
+bustling_digital_donkey
+dozing_unfocused_gaur
+caged_blurry_oahu
+alter_carunculated_paint
+devoted_coincidental_pebble
+overbearing_filthy_fermat
+camouflaged_manipulative_webb
+mantled_coolest_representative
+trusting_nontransferable_leavitt
+convoluted_wolfish_imitator
+shadowed_uninhibited_plains
+hushed_unique_bathyergidae
+rocketing_mighty_fat
+appealing_unwavering_goats
+puzzling_hard_carmine
+occupied_charitable_private
+delighted_fraternal_disappearing
+```
