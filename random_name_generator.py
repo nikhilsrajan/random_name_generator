@@ -4,6 +4,7 @@ import os
 
 
 def generate_random_name(sep='_'):
+    random.seed()   # unsetting seed
     package_dir = os.path.dirname(__file__)
     nouns_filepath = os.path.join(package_dir, 'nouns.txt')
     adjectives_filepath = os.path.join(package_dir, 'adjectives.txt')
